@@ -4,7 +4,7 @@ node {
     env.IMAGE = 'belirta/belirta-amazon-clone'
 
     stage('Clone repository') {
-             git branch: 'main', url: 'https://github.com/Belirta/argocd-amazon-manifest.git'  
+             git branch: 'main', url: 'https://github.com/belirta/argocd-amazon-manifest.git'  
     }
 
     stage('Update GIT') {
