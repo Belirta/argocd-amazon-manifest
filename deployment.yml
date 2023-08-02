@@ -23,7 +23,7 @@ spec:
     spec: # Pod spec
       containers:
       - name: amazon-container
-        image: belirta/belirta-amazon-clone:latest
+        image: belirta/belirta-amazon-clone:10
         ports:
         - containerPort: 3000
         
